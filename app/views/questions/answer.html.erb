@@ -1,0 +1,19 @@
+<h1>Questions#answer</h1>
+<div class="wrapper">
+  <div class="row">
+    <p> <%=  @question  %></p>
+    <h5> You </h5>
+  </div>
+
+  <div class="row1">
+    <p>  <%= @answer %></p>
+    <h5> your coach </h5>
+  </div>
+</div>
+
+<div class="row">
+  <%= link_to("ask again", ask_path, class: "btn btn-primary" )%>
+</div>
+
+
+
